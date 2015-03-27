@@ -1,0 +1,10 @@
+name: NoFallDamageRegions
+main: me.raydond123.nofalldamageregions.NoFallDamageRegions
+version: 1.0
+depend: [WorldGuard]
+commands:
+   addregion:
+      description: Command to add a region to no-fall damage regions.
+permissions:
+   nfdr.nodamage:
+      descriptiong: Permission to not take fall damage in specified regions.
