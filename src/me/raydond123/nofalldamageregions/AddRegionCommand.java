@@ -20,6 +20,8 @@ public class AddRegionCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String string, String[] args) {
 
+        if(!sender.hasPermission("nfdr.addregion")) return false;
+
         if(args.length == 1) {
 
             String region = args[0];

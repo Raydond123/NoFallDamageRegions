@@ -7,4 +7,6 @@ commands:
       description: Command to add a region to no-fall damage regions.
 permissions:
    nfdr.nodamage:
-      descriptiong: Permission to not take fall damage in specified regions.
+      description: Permission to not take fall damage in specified regions.
+   nfdr.addregion:
+      description: Permission to use /addregion.
